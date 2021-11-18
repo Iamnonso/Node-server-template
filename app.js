@@ -16,6 +16,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(cors());
 
+///////////////MIDDLEWARE/////////////////////////////////////
 const index = (_request, response) => {
     response.status(200).send({ message: 'Server template By Iamnonso'});
 }
