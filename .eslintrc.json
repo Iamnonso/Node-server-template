@@ -11,5 +11,7 @@
         "ecmaVersion": "latest"
     },
     "rules": {
+        "properties": "always",
+        "arrow-body-style": ["error", "as-needed"]
     }
 }
